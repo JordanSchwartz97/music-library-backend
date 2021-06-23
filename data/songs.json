@@ -32,12 +32,12 @@
     "releaseDate": "12/03/1965"
   },
   {
-    "id": 5,
-    "title": "Think For Yourself",
-    "album": "Rubber Soul",
-    "artist": "The Beatles",
-    "genre": "Folk Rock",
-    "releaseDate": "12/03/1965"
+    "id": "5",
+    "title": "Kickstart my Heart",
+    "album": "Dr. Feelgood 20th Anniversary",
+    "artist": "Motley Crue",
+    "genre": "Rock",
+    "releaseDate": "11/20/1989"
   },
   {
     "id": 6,
