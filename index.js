@@ -5,3 +5,8 @@ const app = express();
 app.listen(5000,function (){
     console.log("Server started. Listening on port 5000.")
 });
+
+app.get('/api/songs',(req, res) =>{
+   const songs = repoContext.songs.findAllSongs();
+   return res.send(songs);
+});
