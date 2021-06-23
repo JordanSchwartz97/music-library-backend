@@ -36,3 +36,9 @@ app.put('/api/songs/:id', [validateSong], (req, res) => {
     const updatedSong = repoContext.songs.updateSong(id,songPropertiesToUpdate);
     return res.send(updatedSong)
     });
+
+app.delete('/api/songs/:id', (req, res) => {
+const id = req.params.id;
+const updatedSongSet = repoContext.songs.deleteSong(id);
+return res.send(updatedSongSet)
+});
